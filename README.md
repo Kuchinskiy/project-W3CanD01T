@@ -1,3 +1,3 @@
 # Team Project
 
-![Total Commits](https://img.shields.io/github/commits-since/Kravetsin/project-W3CanD01T/initial?style=for-the-badge)
+![Commits](https://img.shields.io/github/commit-activity/m/Kravetsin/project-W3CanD01T?style=for-the-badge)
