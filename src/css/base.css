@@ -33,5 +33,17 @@ main:has(.back-link) {
 }
 
 .section {
-  padding: 40px 0;
+  padding: 64px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .section {
+    padding: 40px 0;
+  }
+}
+
+@media only screen and (min-width: 1336px) {
+  .section {
+    padding: 112px 0;
+  }
 }
