@@ -50,7 +50,7 @@
   border: 1px solid #c2d9fc;
   border-radius: 100px;
   padding: 10px 24px;
-  width: 343px;
+  width: 100%;
   height: 46px;
   background: #c2d9fc;
 }
@@ -69,5 +69,16 @@
   }
   .button-section-five {
     width: 110px;
+  }
+}
+@media only screen and (min-width: 1336px) {
+  .list {
+    gap: 24px;
+  }
+  .list-items {
+    width: calc((100% - 72px) / 4);
+  }
+  .subhead {
+    font-size: 28px;
   }
 }
