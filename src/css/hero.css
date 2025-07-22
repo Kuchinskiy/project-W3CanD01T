@@ -1,4 +1,4 @@
-.hero-div {
+.hero-img {
   padding: 48px 0;
   background-image: url();
 }
@@ -19,30 +19,29 @@
   margin-bottom: 24px;
 }
 
-.hero-btn-div {
+.hero-ul {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   gap: 16px;
 }
-
-.btn-hero {
+.link-hero {
   border-radius: 100px;
   padding: 10px 24px;
-  width: 329px;
+  width: 375px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   color: #0d0b0a;
 }
 
-.btn-joinnow {
+/* .link-joinnow {
   background-color: #c2d9fc;
   border: 1px solid #c2d9fc;
 }
 
-.btn-learnmore {
+.link-learnmore {
   border: 1px solid rgba(255, 255, 255, 0);
   border-radius: 100px;
   background-color: rgba(13, 11, 10, 0.05);
-}
+} */
