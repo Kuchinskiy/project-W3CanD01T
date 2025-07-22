@@ -1,25 +1,22 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // Открытие/закрытие модального окна
   (() => {
     const refs = {
       openModalBtn: document.querySelector('[data-modal-open]'),
       closeModalBtn: document.querySelector('[data-modal-close]'),
       modal: document.querySelector('[data-modal]'),
+      text: document.querySelector('[data-modal-text]'),
+      price: document.querySelector('[data-modal-price]'),
+      input: document.querySelectorAll('.modal-form__input'),
     };
 
-    refs.openModalBtn?.addEventListener('click', toggleModal);
-    refs.closeModalBtn?.addEventListener('click', toggleModal);
-
-    function toggleModal() {
-      refs.modal.classList.toggle('is-hidden');
-      document.body.classList.toggle('no-scroll');
-    }
-  })();
-
-  // Добавление .touched при потере фокуса
-  document.querySelectorAll('.modal-form__input').forEach(input => {
-    input.addEventListener('blur', () => {
-      input.classList.add('touched');
+    refs.openModalBtn?.addEventListener('click', () => {
+      refs.modal.classList.remove('is-hidden');
+      refs.text.textContent = '8 Sessions Package';
+      refs.price.textContent = '$65';
     });
-  });
+
+    refs.closeModalBtn?.addEventListener('click', () => {
+      refs.modal.classList.add('is-hidden');
+    });
+  })();
 });
