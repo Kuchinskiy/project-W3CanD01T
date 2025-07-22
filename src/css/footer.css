@@ -2,8 +2,12 @@
 border: 0px solid #f8fbfe;
 border-radius: 16px;
 background-color: #ffffff;
-margin: 48px 16px;
+margin-bottom: 48px;
 padding: 32px;
+}
+
+.logo-link {
+  display: inline-block;
 }
 
 .logo{
@@ -71,14 +75,8 @@ input:invalid:not(:placeholder-shown)::placeholder {
     letter-spacing: 0.02em;
 }
 
-.footer-links{
-  margin-bottom: 40px;
-}
-
-.footer-social {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; 
+.footer-wrapper{
+  margin-bottom: 48px;
 }
 
 .footer-links-title {
@@ -90,6 +88,10 @@ input:invalid:not(:placeholder-shown)::placeholder {
   text-align: left; 
 }
 
+.footer-links-list{
+  margin-bottom: 40px;
+}
+
 .footer-social-list {
   list-style: none;
   padding: 0;
@@ -98,6 +100,7 @@ input:invalid:not(:placeholder-shown)::placeholder {
   flex-direction: column;
   align-items: flex-start; 
   gap: 8px; 
+  margin-bottom: 40px;
 }
 
 .social-link {
@@ -105,11 +108,41 @@ input:invalid:not(:placeholder-shown)::placeholder {
   align-items: center;
   gap: 12px; 
   text-decoration: none;
-  color: #555;
+  color:#0d0b0a;
   font-size: 14px;
   transition: color 0.3s ease;
 }
 
-.footer-social-list:last-child{
-  margin-bottom: 48px;
+@media screen and (min-width: 768px) {
+  
+.footer .container{
+  margin-bottom: 40px;
+  padding: 40px 32px;
+}
+
+.logo{
+  margin-bottom: 24px;
+}
+
+.footer-newsletter{
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.footer-newsletter-text{
+  margin-bottom: 24px;
+}
+
+.footer-newsletter-input{
+  min-width: 546px;
+}
+
+.footer-newsletter-btn{
+  min-width: 78px;
+}
+
+}
+
+@media screen and (min-width: 1336px) {
+  
 }
