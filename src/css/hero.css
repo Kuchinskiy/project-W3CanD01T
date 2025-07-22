@@ -1,6 +1,18 @@
 .hero-img {
+  display: block;
   padding: 48px 0;
-  background-image: url();
+  background-image: url(../images/hero/herobaner_mobile-min.jpg);
+  max-width: 100%;
+  height: 301px;
+  background-repeat: no-repeat;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+}
+
+.hero-container {
+  padding: 48px 0;
 }
 
 .hero-title {
@@ -25,23 +37,31 @@
   justify-content: flex-start;
   gap: 16px;
 }
-.link-hero {
+.hero-ul-li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 100px;
   padding: 10px 24px;
-  width: 375px;
+  width: 100%;
+}
+
+.link-hero {
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   color: #0d0b0a;
+  border-radius: 100px;
 }
 
-/* .link-joinnow {
+.link-joinnow {
   background-color: #c2d9fc;
   border: 1px solid #c2d9fc;
 }
 
 .link-learnmore {
   border: 1px solid rgba(255, 255, 255, 0);
-  border-radius: 100px;
+
   background-color: rgba(13, 11, 10, 0.05);
-} */
+}
