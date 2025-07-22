@@ -1,4 +1,4 @@
-<div class="backdrop" data-modal>
+<div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <button class="modal__close-btn" type="button" data-modal-close>
       <svg width="14" height="14">
@@ -24,6 +24,7 @@
           type="email"
           id="user-email"
           placeholder="Enter your mail"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
           required
         /><span class="error-message">Please enter a valid email</span></label
       >
@@ -33,6 +34,7 @@
           type="tel"
           id="user-phone"
           placeholder="Enter your phone number"
+          pattern="^\+?[0-9\s\-()]{7,15}$"
           required
         /><span class="error-message">Please enter a valid phone</span></label
       >
@@ -40,3 +42,7 @@
     </form>
   </div>
 </div>
+
+<button type="button" data-checkout-basic>Price 10</button>
+<button type="button" data-checkout-standart>Price 65</button>
+<button type="button" data-checkout-pro>Price 80</button>
