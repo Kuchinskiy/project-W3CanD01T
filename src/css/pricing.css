@@ -22,12 +22,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* flex-direction: column; */
 }
 
 .item-card {
   width: 343px;
-  /* min-height: 462px; */
   padding: 32px 24px;
   border-radius: 16px;
   background-color: #dfebeb;
@@ -64,21 +62,21 @@
 .item-features {
   display: flex;
   align-items: center;
-
-  /* margin-bottom: 16px; */
 }
 
-.item-features:last-child {
-  margin-bottom: 0;
+.item-icon-features {
+  margin-right: 16px;
 }
 
 .item-button-card {
   height: 46px;
   min-width: 295px;
   padding: 10px 24px;
-  border-radius: 100px;
 
   font-weight: 500;
+  line-height: 1.6;
+
+  border-radius: 100px;
   background-color: #c2d9fc;
   border: 1px solid transparent;
 }
