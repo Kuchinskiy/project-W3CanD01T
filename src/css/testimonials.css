@@ -4,11 +4,13 @@
   font-size: 52px;
   line-height: 1.2;
   letter-spacing: 0.01em;
+  margin-bottom: 20px;
 }
 
 .testimonials__sub-title {
   font-size: 18px;
   line-height: 1.6;
+  margin-bottom: 24px;
 }
 
 .testimonials__title,
@@ -27,6 +29,8 @@
 
 .testimonials__quote {
   font-size: 22px;
+  max-width: 319px;
+  margin-bottom: 32px;
 }
 
 .testimonials__user-name {
@@ -44,6 +48,12 @@
   line-height: 1.5;
 }
 
+@media only screen and (min-width: 768px) {
+  .testimonials__quote {
+    max-width: 680px;
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1335px) {
   .testimonials__title {
     font-size: 40px;
@@ -51,7 +61,30 @@
 }
 
 @media only screen and (min-width: 1336px) {
+  .testimonials__quote {
+    max-width: 620px;
+  }
+
   .testimonials__user-profession {
     font-family: 'Sarabun', sans-serif;
   }
+}
+
+.testimonials__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 24px;
+}
+
+.testimonials-card {
+  padding: 12px;
+  border-radius: 24px;
+  background-color: #dfebeb;
+}
+
+.testimonials__user-photo {
+  display: block;
+  margin: 0 auto 16px auto;
 }
