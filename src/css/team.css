@@ -48,21 +48,35 @@
   display: flex;
   gap: 14px;
 }
+.team-socmedia-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: fill 250ms ease-in-out;
+}
+
 .team-socmedia-link:focus {
   fill: #868584;
-  transition: fill 250ms ease-in-out;
 }
 .team-socmedia-link:hover {
   fill: #868584;
-  transition: fill 250ms ease-in-out;
 }
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .team-title {
+    font-size: 52px;
     margin-bottom: 24px;
   }
+  .team-name {
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .team-info {
+    font-size: 18px;
+  }
   .team-description {
+    font-size: 18px;
     margin-bottom: 40px;
   }
   .team-list {
@@ -82,7 +96,7 @@
 @media only screen and (min-width: 1336px) {
   .team-list {
     max-width: 1312px;
-    gap: 67px 24px;
+    gap: 64px 24px;
   }
   .team-card {
     width: calc((100% - 48px) / 3);
