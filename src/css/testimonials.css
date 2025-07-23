@@ -1,0 +1,45 @@
+.testimonials__title {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.testimonials__sub-title {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.testimonials__title,
+.testimonials__sub-title,
+.testimonials__quote,
+.testimonials__user-name,
+.testimonials__user-profession {
+  text-align: center;
+}
+
+.testimonials__sub-title,
+.testimonials__quote,
+.testimonials__user-name {
+  font-family: 'Sarabun', sans-serif;
+}
+
+.testimonials__quote {
+  font-size: 22px;
+}
+
+.testimonials__user-name {
+  font-size: 18px;
+}
+
+.testimonials__quote,
+.testimonials__user-name {
+  line-height: 1.6;
+}
+
+.testimonials__user-profession {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
