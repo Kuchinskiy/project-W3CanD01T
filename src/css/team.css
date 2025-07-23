@@ -29,6 +29,10 @@
   flex-direction: column;
   align-items: center;
 }
+.team-photo {
+  border-radius: 16px;
+  overflow: hidden;
+}
 .team-name {
   font-weight: 600;
   font-size: 18px;
@@ -56,7 +60,7 @@
     gap: 24px;
   }
   .team-card {
-    max-width: 340px;
+    width: calc((100% - 24px) / 2);
   }
 }
 
@@ -64,9 +68,10 @@
 @media only screen and (min-width: 1336px) {
   .team-list {
     max-width: 1312px;
+
     gap: 67px 24px;
   }
   .team-card {
-    max-width: 421px;
+    width: calc((100% - 48px) / 3);
   }
 }
