@@ -3,8 +3,8 @@
 }
 .meet {
   font-weight: 600;
-
   line-height: 1.5;
+  margin-bottom: 12px;
 }
 .team-title {
   font-family: 'Cabin', sans-serif;
@@ -12,16 +12,15 @@
   font-size: 40px;
   line-height: 1.2;
   letter-spacing: 0.01em;
-  margin-top: 12px;
+  margin-bottom: 20px;
 }
 .team-description {
-  margin-top: 12px;
+  margin-bottom: 48px;
 }
 .team-list {
   display: flex;
   flex-direction: column;
   max-width: 343px;
-  margin-top: 48px;
   gap: 48px;
 }
 .team-card {
@@ -32,29 +31,44 @@
 .team-photo {
   border-radius: 16px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 .team-name {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.6;
-  margin-top: 20px;
+}
+.team-info {
+  margin-bottom: 12px;
 }
 .team-about {
-  margin-top: 12px;
+  margin-bottom: 20px;
 }
 .team-socmedia {
   display: flex;
   gap: 14px;
-  margin-top: 20px;
+}
+.team-socmedia-link:focus {
+  fill: #868584;
+  transition: fill 250ms ease-in-out;
+}
+.team-socmedia-link:hover {
+  fill: #868584;
+  transition: fill 250ms ease-in-out;
 }
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
+  .team-title {
+    margin-bottom: 24px;
+  }
+  .team-description {
+    margin-bottom: 40px;
+  }
   .team-list {
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 704px;
-    margin-top: 40px;
     justify-content: center;
     align-items: flex-start;
     gap: 24px;
@@ -68,7 +82,6 @@
 @media only screen and (min-width: 1336px) {
   .team-list {
     max-width: 1312px;
-
     gap: 67px 24px;
   }
   .team-card {
