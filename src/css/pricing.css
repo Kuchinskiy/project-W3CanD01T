@@ -1,0 +1,84 @@
+.section-box {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.section-label {
+  margin-bottom: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.section-title {
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  letter-spacing: 0.01em;
+  font-family: 'Cabin', sans-serif;
+}
+
+.items-cards {
+  gap: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* flex-direction: column; */
+}
+
+.item-card {
+  width: 343px;
+  /* min-height: 462px; */
+  padding: 32px 24px;
+  border-radius: 16px;
+  background-color: #dfebeb;
+}
+
+.item-card-title,
+.item-card-price {
+  text-align: center;
+  letter-spacing: 0.01em;
+  font-family: 'Cabin', sans-serif;
+}
+
+.item-card-title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+.item-card-price {
+  font-size: 44px;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.items-features {
+  gap: 16px;
+  display: flex;
+  padding: 8px 0;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.item-features {
+  display: flex;
+  align-items: center;
+
+  /* margin-bottom: 16px; */
+}
+
+.item-features:last-child {
+  margin-bottom: 0;
+}
+
+.item-button-card {
+  height: 46px;
+  min-width: 295px;
+  padding: 10px 24px;
+  border-radius: 100px;
+
+  font-weight: 500;
+  background-color: #c2d9fc;
+  border: 1px solid transparent;
+}
