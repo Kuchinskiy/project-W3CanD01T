@@ -117,7 +117,6 @@ input:invalid:not(:placeholder-shown)::placeholder {
   
 .footer .container{
   margin-bottom: 40px;
-  padding: 40px 32px;
 }
 
 .logo{
@@ -129,16 +128,39 @@ input:invalid:not(:placeholder-shown)::placeholder {
   margin-bottom: 40px;
 }
 
+.footer-newsletter-form{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 16px;
+  align-items: center;
+  width: 100%;
+}
+
 .footer-newsletter-text{
   margin-bottom: 24px;
 }
 
 .footer-newsletter-input{
-  min-width: 546px;
+  width: 100%;
+  margin: 0;
 }
 
 .footer-newsletter-btn{
   min-width: 78px;
+  margin: 0;
+}
+
+.footer-wrapper{
+  display:flex;
+}
+
+.footer-links-list{
+  width: 300px;
+  margin-right: 40px;
+}
+
+.footer-links-link{
+  font-size: 14px;
 }
 
 }
