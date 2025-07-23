@@ -1,7 +1,5 @@
-.team {
+.section {
   text-align: center;
-  padding-top: 64px;
-  padding-bottom: 64px;
 }
 .meet {
   font-weight: 600;
@@ -22,6 +20,7 @@
 .team-list {
   display: flex;
   flex-direction: column;
+  max-width: 343px;
   margin-top: 48px;
   gap: 48px;
 }
@@ -43,4 +42,31 @@
   display: flex;
   gap: 14px;
   margin-top: 20px;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 704px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .team-card {
+    max-width: 340px;
+  }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1336px) {
+  .team-list {
+    max-width: 1312px;
+    gap: 67px 24px;
+  }
+  .team-card {
+    max-width: 421px;
+  }
 }
