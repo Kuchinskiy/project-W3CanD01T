@@ -74,10 +74,10 @@
     flex-wrap: wrap;
     gap: 24px;
     margin-bottom: 40px;
+    align-items: baseline;
   }
   .list-items {
     width: calc((100% - 24px) / 2);
-    min-width: 340px;
   }
   .button-section-five {
     width: 110px;
@@ -102,7 +102,6 @@
   }
   .list-items {
     width: calc((100% - 72px) / 4);
-    min-width: 310px;
   }
   .subhead {
     font-size: 28px;
