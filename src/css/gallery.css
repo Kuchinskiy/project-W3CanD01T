@@ -19,7 +19,7 @@
   justify-content: center;
 }
 
-.gallery-photo {
+.gallery-item {
   border-radius: 16px;
   overflow: hidden;
 }
