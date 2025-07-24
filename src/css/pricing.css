@@ -68,8 +68,8 @@
 }
 
 .item-button-card {
+  width: 100%;
   height: 46px;
-  min-width: 295px;
   padding: 10px 24px;
 
   font-weight: 500;
@@ -81,7 +81,7 @@
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1135px) {
   .section-box {
     margin-bottom: 24px;
   }
@@ -108,7 +108,7 @@
   }
 
   .price-card-full {
-    margin-top: 24px;
+    margin: 24px 0;
   }
 
 /* Three card - CSS Grid */
@@ -122,6 +122,10 @@
     padding: 16px;
   }
 
+  .item-card:last-child {
+    padding: 86px 16px;
+  }
+
   .item-card-full {
     grid-column: 1 / -1;
   }
@@ -131,7 +135,6 @@
     grid-template-columns: 320px 1fr;
     grid-template-rows: auto auto 1fr;
     column-gap: 32px;
-    padding: 86px 16px;
     align-items: start;
   }
 
@@ -155,5 +158,30 @@
     grid-column: 1;
     align-self: end;
     min-width: 308px;
+  }
+}
+
+@media screen and (min-width: 1136px) {
+  .section-box {
+    margin-bottom: 40px;
+  }
+
+  .section-title {
+    font-size: 52px;
+  }
+
+  .items-cards {
+    gap: 24px;
+  }
+
+  .item-card {
+    width: 421px;
+    height: 509px;
+
+    padding: 32px;
+  }
+
+  .item-card-price {
+    margin-bottom: 32px;
   }
 }
