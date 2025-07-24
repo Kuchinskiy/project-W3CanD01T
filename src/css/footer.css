@@ -1,4 +1,4 @@
-.footer .container{
+.footer-container{
 position: relative;
 border: 0px solid #f8fbfe;
 border-radius: 16px;
@@ -75,7 +75,7 @@ input:invalid:not(:placeholder-shown)::placeholder {
     letter-spacing: 0.02em;
 }
 
-.footer-wrapper{
+.footer-wrapper-links{
   margin-bottom: 48px;
 }
 
@@ -121,8 +121,9 @@ input:invalid:not(:placeholder-shown)::placeholder {
 
 @media screen and (min-width: 768px) {
   
-.footer .container{
+.footer-container{
   margin-bottom: 40px;
+  padding: 40px 32px;
 }
 
 .logo{
@@ -156,7 +157,7 @@ input:invalid:not(:placeholder-shown)::placeholder {
   margin: 0;
 }
 
-.footer-wrapper{
+.footer-wrapper-links{
   display:flex;
   gap: 40px;
 }
@@ -198,11 +199,17 @@ input:invalid:not(:placeholder-shown)::placeholder {
 }
 
 @media screen and (min-width: 1336px) {
+
+  .footer-container{
+  margin-bottom: 40px;
+  padding: 40px;
+}
+
 .footer-newsletter{ 
   margin-bottom: 24px;
 }
 
-.footer-desktop-wrapper{
+.footer-wrapper{
   display:flex;
   justify-content: space-between;
 }
