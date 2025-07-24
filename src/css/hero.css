@@ -10,7 +10,8 @@
 }
 
 .hero-container {
-  padding: 48px 0;
+  padding-bottom: 48px;
+  padding-top: 48px;
 }
 
 .hero-title {
@@ -98,10 +99,7 @@
 
   .hero-text {
     max-width: 641px;
-
-    font-weight: 400;
     font-size: 18px;
-    line-height: 1.6;
     margin-bottom: 32px;
   }
 
