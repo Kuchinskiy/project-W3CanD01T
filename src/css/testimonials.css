@@ -1,0 +1,114 @@
+.testimonials__title {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  margin-bottom: 20px;
+}
+
+.testimonials__sub-title {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.testimonials__title,
+.testimonials__sub-title,
+.testimonials__quote,
+.testimonials__user-name,
+.testimonials__user-status {
+  text-align: center;
+}
+
+.testimonials__sub-title,
+.testimonials__quote,
+.testimonials__user-name {
+  font-family: 'Sarabun', sans-serif;
+}
+
+.testimonials__quote {
+  font-size: 22px;
+  max-width: 319px;
+}
+
+.testimonials__user-name {
+  font-size: 18px;
+}
+
+.testimonials__quote,
+.testimonials__user-name {
+  line-height: 1.6;
+}
+
+.testimonials__user-status {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 767px) {
+  .testimonials__quote {
+    margin-bottom: 32px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .testimonials__quote {
+    max-width: 680px;
+  }
+}
+
+@media only screen and (min-width: 1336px) {
+  .testimonials__quote {
+    max-width: 620px;
+  }
+  .testimonials__user-status {
+    font-family: 'Sarabun', sans-serif;
+  }
+}
+
+.testimonials__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 24px;
+}
+
+.testimonials-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 12px;
+  border-radius: 24px;
+  background-color: #dfebeb;
+}
+
+@media only screen and (min-width: 768px) {
+  .testimonials-card:nth-child(1),
+  .testimonials-card:nth-child(2) {
+    min-height: 356px;
+  }
+  .testimonials-card:nth-child(3),
+  .testimonials-card:nth-child(4) {
+    min-height: 321px;
+  }
+}
+
+@media only screen and (min-width: 1336px) {
+  .testimonials__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px 24px;
+  }
+
+  .testimonials-card {
+    flex-basis: calc((100% - 1 * 24px) / 2);
+  }
+}
+
+.testimonials__user-photo {
+  display: block;
+  margin: 0 auto 16px auto;
+}
