@@ -101,6 +101,9 @@ input:invalid:not(:placeholder-shown)::placeholder {
 
 .footer-links-link{
   margin: 8px 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6; 
 }
 
 .footer-links-link:hover{
@@ -116,6 +119,9 @@ input:invalid:not(:placeholder-shown)::placeholder {
   align-items: flex-start; 
   gap: 8px; 
   margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6; 
 }
 
 .footer-social-link {
