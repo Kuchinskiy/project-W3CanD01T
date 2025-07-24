@@ -226,6 +226,13 @@ input:invalid:not(:placeholder-shown)::placeholder {
 
 .footer-newsletter{ 
   margin-bottom: 24px;
+  width: 100%;
+  max-width: 595px;
+}
+
+.footer-wrapper-links{
+  width: 100%;
+  justify-content: flex-end;
 }
 
 .footer-wrapper{
