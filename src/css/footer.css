@@ -1,15 +1,13 @@
 
-.footer-bg{
+.footer{
   background-color:  #dfebeb;
   padding: 48px 0;
 }
 
 .footer-container{
 position: relative;
-border: 0px solid #f8fbfe;
 border-radius: 16px;
 background-color: #f8fbfe;
-margin-bottom: 48px;
 padding: 32px;
 }
 
@@ -73,6 +71,9 @@ input:invalid:not(:placeholder-shown)::placeholder {
 .footer-newsletter-btn:focus{
   border: 1px solid #868584;
 }
+.footer-newsletter-btn:hover{
+  opacity: 0.5;
+}
 
 .footer-newsletter-policy{
     font-weight: 400;
@@ -90,12 +91,20 @@ input:invalid:not(:placeholder-shown)::placeholder {
   margin-bottom: 12px; 
   font-size: 16px;
   font-weight: bold;
-  color: #333;
+  color: #0d0b0a;
   text-align: left; 
 }
 
 .footer-links-list{
   margin-bottom: 40px;
+}
+
+.footer-links-link{
+  margin: 8px 0;
+}
+
+.footer-links-link:hover{
+  opacity: 0.5;
 }
 
 .footer-social-list {
@@ -119,14 +128,17 @@ input:invalid:not(:placeholder-shown)::placeholder {
   transition: color 0.3s ease;
 }
 
+.footer-social-link:hover{
+  opacity: 0.5;
+}
+
 @media screen and (min-width: 768px) {
 
-  .footer-bg{
+  .footer{
   padding: 40px 0;
 }
   
 .footer-container{
-  margin-bottom: 40px;
   padding: 40px 32px;
 }
 
@@ -204,12 +216,11 @@ input:invalid:not(:placeholder-shown)::placeholder {
 
 @media screen and (min-width: 1336px){
 
-  .footer-bg{
+  .footer{
   padding: 64px 0;
   }
 
   .footer-container{
-  margin-bottom: 40px;
   padding: 40px;
 }
 
