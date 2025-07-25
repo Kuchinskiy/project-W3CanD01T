@@ -120,9 +120,6 @@ input:invalid:not(:placeholder-shown)::placeholder {
   line-height: 1.6; 
 }
 
-.footer-links-link:hover{
-  opacity: 0.5;
-}
 
 .footer-social-list {
   list-style: none;
@@ -143,9 +140,6 @@ input:invalid:not(:placeholder-shown)::placeholder {
   transition: color 0.3s ease;
 }
 
-.footer-social-link:hover{
-  opacity: 0.5;
-}
 
 @media screen and (min-width: 768px) {
 
