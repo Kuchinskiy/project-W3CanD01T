@@ -129,6 +129,7 @@
     flex-wrap: nowrap;
     padding-top: 80px;
     padding-bottom: 80px;
+    gap: 24px;
   }
 
   .hero-title {
