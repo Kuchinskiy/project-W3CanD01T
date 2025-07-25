@@ -36,22 +36,19 @@
   justify-content: flex-start;
   gap: 16px;
 }
-.hero-ul-li {
+
+.link-hero {
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 100px;
   padding: 10px 24px;
   width: 100%;
-}
-
-.link-hero {
   text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   color: #0d0b0a;
-  border-radius: 100px;
 }
 
 .link-joinnow {
@@ -61,7 +58,6 @@
 
 .link-learnmore {
   border: 1px solid rgba(255, 255, 255, 0);
-
   background-color: rgba(13, 11, 10, 0.05);
 }
 
@@ -106,7 +102,17 @@
   .hero-ul {
     flex-direction: row;
     flex-wrap: nowrap;
-    max-width: 305px;
+  }
+
+  link-hero {
+    max-width: 100%;
+  }
+
+  .link-joinnow {
+    padding: 10px 40px;
+  }
+  .link-learnmore {
+    padding: 10px 32px;
   }
 }
 
@@ -137,8 +143,7 @@
     max-width: 644px;
     margin: 0;
   }
-
-  .hero-ul-li {
+  .link-hero {
     padding: 10px 24px;
   }
 }
