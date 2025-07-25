@@ -99,6 +99,20 @@ input:invalid:not(:placeholder-shown)::placeholder {
   margin-bottom: 40px;
 }
 
+.footer-links-list-item{
+  margin: 8px 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6; 
+}
+
+.footer-social-list-item{
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6; 
+}
+
 .footer-links-link{
   margin: 8px 0;
   font-weight: 400;
@@ -117,11 +131,7 @@ input:invalid:not(:placeholder-shown)::placeholder {
   display: flex;
   flex-direction: column;
   align-items: flex-start; 
-  gap: 8px; 
   margin-bottom: 40px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.6; 
 }
 
 .footer-social-link {
@@ -130,7 +140,6 @@ input:invalid:not(:placeholder-shown)::placeholder {
   gap: 12px; 
   text-decoration: none;
   color:#0d0b0a;
-  font-size: 14px;
   transition: color 0.3s ease;
 }
 
@@ -191,7 +200,7 @@ input:invalid:not(:placeholder-shown)::placeholder {
 
 .footer-links-list{
   width: 300px;
-  margin: 8px 0;
+  margin-bottom: 0;
 }
 
 .footer-links-link{
@@ -205,7 +214,6 @@ input:invalid:not(:placeholder-shown)::placeholder {
 
 .footer-links-list{
   width: 300px;
-  margin: 8px 0;
 
 }
 
@@ -237,7 +245,6 @@ input:invalid:not(:placeholder-shown)::placeholder {
 }
 
 .footer-wrapper-links{
-  width: 100%;
   justify-content: flex-end;
 }
 
