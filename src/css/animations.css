@@ -1,0 +1,20 @@
+/* !LINKS */
+.link-anim {
+  transition: color 250ms ease-in-out, fill 250ms ease-in-out;
+}
+
+.link-anim:hover,
+.link-anim:focus {
+  color: #868584;
+  fill: #868584;
+}
+
+/* !BUTTONS */
+.button-anim {
+  transition: opacity 250ms ease-in-out;
+}
+
+.button-anim:hover,
+.button-anim:focus {
+  opacity: 0.5;
+}
