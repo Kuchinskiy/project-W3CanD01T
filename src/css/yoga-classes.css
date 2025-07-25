@@ -1,5 +1,5 @@
 /* Programs section */
-.section {
+.programs {
     text-align: center; 
 }
 
@@ -119,6 +119,7 @@
 
     .programs-subtitle {
         font-size: 24px;
+        margin-bottom: 0;
     }
 
     .mobile-heading {
@@ -138,8 +139,7 @@
     }
 
     .programs-button {
-        min-width: 200px;
-        padding: 14px 32px;
+        max-width: 115px; 
     }
 }
 
