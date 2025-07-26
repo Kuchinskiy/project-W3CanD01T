@@ -99,17 +99,17 @@
     font-size: 18px;
   }
 
-    .item-card-title {
+  .item-card-title {
     font-size: 22px;
   }
 
-    .item-card-price {
+  .item-card-price {
     font-size: 72px;
     margin-bottom: 32px;
   }
 
-  .price-card-full {
-    margin: 24px 0;
+  .items-features {
+    margin-bottom: 22px;
   }
 
   /* Three card - CSS Grid */
@@ -130,6 +130,10 @@
 
     .item-card-full {
       grid-column: 1 / -1;
+    }
+
+    .price-card-full {
+      margin: 24px 0;
     }
 
     .card-info-box {
@@ -185,17 +189,13 @@
     width: calc((100% - 48px) / 3);
   }
 
-  .item-button-card {
-    margin-top: auto;
-  }
-
   .item-wrap-content {
     height: 100%;
     display: flex;
     flex-direction: column;
   }
 
-  .box {
-    flex-grow: 1;
+  .item-button-card {
+    margin-top: auto;
   }
 }
