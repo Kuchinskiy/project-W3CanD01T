@@ -1,3 +1,6 @@
+.gallery {
+  text-align: center;
+}
 .gallery-title {
   font-family: 'Cabin', sans-serif;
   font-weight: 400;
@@ -22,4 +25,26 @@
 .gallery-item {
   border-radius: 16px;
   overflow: hidden;
+  width: calc((100% - 24px) / 2);
+}
+@media only screen and (min-width: 768px) {
+  .gallery-title {
+    margin-bottom: 24px;
+    font-size: 40px;
+  }
+  .gallery-text {
+    margin-bottom: 80px;
+  }
+  /* .gallery-item {
+    width: calc((100% - 24px) / 2);
+  } */
+}
+@media only screen and (min-width: 1336px) {
+  .gallery-title {
+    margin-bottom: 24px;
+    font-size: 52px;
+  }
+  .gallery-item {
+    width: calc((100% - 48px) / 3);
+  }
 }
