@@ -113,7 +113,7 @@
   }
 
   /* Three card - CSS Grid */
-  @media screen and (min-width: 768px) and (max-width: 1024px) {
+  @media screen and (min-width: 768px) and (max-width: 1335px) {
     .items-cards {
     gap: 24px;
     display: grid;
@@ -167,7 +167,7 @@
   }
 }
 
-@media screen and (min-width: 1136px) {
+@media screen and (min-width: 1336px) {
   .section-box {
     margin-bottom: 40px;
   }
