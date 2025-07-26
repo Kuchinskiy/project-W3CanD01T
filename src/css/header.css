@@ -85,7 +85,7 @@
   padding-bottom: 160px;
   background-color: #f2fafa;
   z-index: 15;
-  transition: top 350ms ease-in-out, opacity 20ms ease-in-out;
+  transition: top 450ms ease-in-out, opacity 20ms ease-in-out;
 }
 
 .header__modal .container {
