@@ -158,11 +158,6 @@
   transition: opacity 250ms ease-in-out;
 }
 
-/* !HOVER */
-.modal-form__button:hover {
-  opacity: 0.5;
-}
-
 @media only screen and (min-width: 768px) {
   .modal__form {
     grid-template-columns: repeat(2, 1fr);
