@@ -36,6 +36,10 @@
   overflow: hidden;
   margin-bottom: 20px;
 }
+.team-photo,
+.team-card img {
+  height: 221px;
+}
 .team-name {
   font-weight: 600;
   font-size: 18px;
@@ -60,6 +64,10 @@
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
+  .team-photo,
+  .team-card img {
+    height: 395px;
+  }
   .team-title {
     font-size: 52px;
     margin-bottom: 24px;
@@ -91,6 +99,10 @@
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1336px) {
+  .team-card--second-half .team-photo,
+  .team-card--second-half img {
+    height: 410.6px;
+  }
   .team-list {
     max-width: 1312px;
     gap: 64px 24px;
