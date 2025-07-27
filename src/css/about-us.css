@@ -46,7 +46,6 @@
   justify-content: center;
   flex-direction: row;
   gap: 8px;
-  border: 1px solid #c2d9fc;
   border-radius: 100px;
   padding: 10px 24px;
   height: 46px;
@@ -115,7 +114,7 @@
 }
 
 /* !ANIMATIONS */
-.list-items:hover{
+.list-items:hover {
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.25);
   background-color: #dfebeb;
 }
