@@ -155,12 +155,6 @@
   margin: 0 auto;
   font-weight: 500;
   grid-column: 1 / -1;
-  transition: opacity 250ms ease-in-out;
-}
-
-/* !HOVER */
-.modal-form__button:hover {
-  opacity: 0.5;
 }
 
 @media only screen and (min-width: 768px) {

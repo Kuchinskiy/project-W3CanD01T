@@ -11,10 +11,20 @@
 
 /* !BUTTONS */
 .button-anim {
-  transition: opacity 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out, box-shadow 250ms ease-in-out;
 }
 
 .button-anim:hover,
 .button-anim:focus {
-  opacity: 0.5;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14);
+}
+
+.button-anim.btn--blue:hover,
+.button-anim.btn--blue:focus {
+  background-color: rgba(194, 217, 252, 0.5);
+}
+
+.button-anim.btn--grey:hover,
+.button-anim.btn--grey:focus {
+  background-color: rgba(13, 11, 10, 0.025);
 }
