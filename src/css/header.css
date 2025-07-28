@@ -4,6 +4,8 @@
   background-color: #f2fafa;
   z-index: 999;
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.25);
+  height: 64px;
+  padding: 14px 0;
 }
 
 .header__div {
@@ -38,6 +40,9 @@
 }
 
 .header__logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   padding: 5px 0;
 }
 
@@ -197,6 +202,11 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .header {
+    height: 72px;
+    padding: 15px 0;
+  }
+
   .header-modal__item {
     max-width: 684px;
   }
@@ -224,6 +234,11 @@
   }
 }
 @media only screen and (min-width: 1336px) {
+  .header {
+    height: 72px;
+    padding: 0;
+  }
+
   .header__menu-btn.visible {
     display: none;
   }
