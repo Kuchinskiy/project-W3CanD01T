@@ -54,6 +54,7 @@
   width: 74px;
   background-color: #c2d9fc;
   border-radius: 100px;
+  font-weight: 500;
 }
 
 .header__menu-btn.visible {
@@ -162,6 +163,7 @@
   background-color: #c2d9fc;
   border-radius: 100px;
   height: 46px;
+  font-weight: 500;
 }
 
 .header-nav__link.active {
