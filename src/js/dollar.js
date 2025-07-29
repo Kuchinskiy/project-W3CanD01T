@@ -9,16 +9,10 @@
     card.addEventListener('mouseenter', () => {
       rotationY += 360;
       dollarIcon.style.transform = `rotateY(${rotationY}deg)`;
-    });
-
-    card.addEventListener('mouseleave', () => {
-      const extraSpin = 180 + Math.floor(Math.random() * 180);
-      rotationY += extraSpin;
-      dollarIcon.style.transform = `rotateY(${rotationY}deg)`;
 
       setTimeout(() => {
-        rotationY = 0;
-        dollarIcon.style.transform = `rotateY(0deg)`;
-      }, 700);
+        rotationY += 360;
+        dollarIcon.style.transform = `rotateY(${rotationY}deg)`;
+      }, 500);
     });
   });

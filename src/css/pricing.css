@@ -39,7 +39,7 @@
   will-change: transform;
   transform: rotateY(0deg);
   transform-origin: center center;
-  transition: transform 2s ease-in-out;
+  transition: transform 4s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
 /* Vanilla CSS */
